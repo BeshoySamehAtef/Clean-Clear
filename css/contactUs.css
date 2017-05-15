@@ -1,0 +1,56 @@
+body { padding-top: 50px; }
+
+#divLine {
+    height: 5px;
+    background-color: darkred;
+    padding-bottom: 2px;
+}
+
+.navbar {
+    margin-bottom: 2px;    
+}
+
+.navbar li:hover{
+    background:#e7e7e7;
+}
+
+.container {
+    padding-top: 0px;
+}
+
+
+
+.col-md-4 h2 {padding-top: 10px}
+/*.redBox .col-md-4 p {font-size: 18px;padding-bottom: 15px;}
+.blueBox .col-md-4 p {font-size: 18px;padding-bottom: 15px;}*/
+
+
+
+
+.list-group {
+    margin-top: 30px;
+}
+
+a.list-group-item.active ,a.list-group-item.active:hover{
+    background-color:#ca2129;
+    border:#ca2129;
+}
+
+footer{
+    text-align: center;
+    padding:20px 0;
+    font-weight:bold;
+    background:#f4f4f4;
+}
+
+iframe.gmap{
+    width:100%;
+    border:#cccccc 1px solid;
+    border-radius:10px;
+    padding:4px;
+}
+
+
+
+
+.contantWell {background:#fff !important;margin-top: 30px}

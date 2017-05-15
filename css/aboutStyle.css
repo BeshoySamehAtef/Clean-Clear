@@ -1,0 +1,40 @@
+body { padding-top: 70px; }
+
+#divLine {
+    height: 5px;
+    background-color: darkred;
+    padding-bottom: 2px;
+}
+
+.navbar {
+    margin-bottom: 2px;    
+}
+
+.navbar li:hover{
+    background:#e7e7e7;
+}
+
+.contactUs {
+    border: 2px solid rgb(233,233,233) ;
+    border-radius: 3px;
+    background-color: rgb(243,243,243);
+    padding: 30px 15px;
+}
+
+footer{
+    text-align: center;
+    padding:20px 0;
+    font-weight:bold;
+    background:#f4f4f4;
+}
+
+#accordion {
+    padding-top: 30px;
+}
+
+a.list-group-item.active ,a.list-group-item.active:hover{
+    background-color:#ca2129;
+    border:#ca2129;
+}
+
+.well { background-color: #fff !important;}

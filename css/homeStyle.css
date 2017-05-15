@@ -1,0 +1,121 @@
+body { padding-top: 50px; }
+
+#divLine {
+    height: 5px;
+    background-color: darkred;
+    padding-bottom: 2px;
+}
+
+.navbar {
+    margin-bottom: 2px;    
+}
+
+.navbar li:hover{
+    background:#e7e7e7;
+}
+
+.jumbotron {
+    background-image: url(../images/waterdrop400.jpg);
+    height: 400px;
+    padding-top: 0px;
+}
+
+.container {
+    padding-top: 0px;
+}
+
+.container .col-md-7{
+    color: #fff;
+    background-color: rgba(86,61,124,.15);
+    height: 400px;
+    padding: 15px;
+}
+
+.container-content h2 {
+    border-bottom: 1px solid #fff;
+}
+
+.redBox {
+    height: 230px;
+    background-color: #ca2129;
+    color: #fff;
+    padding-left:  15px;
+    padding-right:  15px;
+    margin-top: 15px;
+    font-size: 120%;
+
+}
+
+.blueBox {
+    height: 230px;
+    background-color: #2e98cc;
+    color: #fff;
+    padding-left:  15px;
+    padding-right:  15px;
+    font-size: 120%;
+    
+}
+
+.col-md-4 h2 {padding-top: 10px}
+/*.redBox .col-md-4 p {font-size: 18px;padding-bottom: 15px;}
+.blueBox .col-md-4 p {font-size: 18px;padding-bottom: 15px;}*/
+
+.redBox a {
+    color: #fff;
+    background-color: #bf1e26;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+    position: absolute;
+    
+}
+
+.redBox a:hover {
+    background-color: #86161b;
+}
+
+.blueBox a:hover {
+    background-color: #20749d;
+}
+
+.blueBox a {
+    color: #fff;
+    background-color: #2b8cbc;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.panel {
+    margin-top: 30px;
+}
+
+.panel-heading {
+    background-color: #2e98cc !important;
+    color: #fff !important;
+}
+
+.media img {
+    border-radius: 50%;
+}
+
+.media-body {
+    font-size: 17px !important; 
+}
+
+.list-group {
+    margin-top: 30px;
+}
+
+a.list-group-item.active ,a.list-group-item.active:hover{
+    background-color:#ca2129;
+    border:#ca2129;
+}
+
+footer{
+    text-align: center;
+    padding:20px 0;
+    font-weight:bold;
+    background:#f4f4f4;
+}
